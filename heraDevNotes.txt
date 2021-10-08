@@ -1,0 +1,47 @@
+ajlin179
+  
+sudo rm  /etc/apt/sources.list.d/puppet.list
+sudo apt-get update
+wget https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/docker-ce-cli_20.10.8~3-0~ubuntu-focal_amd64.deb
+sudo dpkg -i docker-ce-cli_20.10.8~3-0~ubuntu-focal_amd64.deb
+
+wget https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/containerd.io_1.4.9-1_amd64.deb
+sudo dpkg -i containerd.io_1.4.9-1_amd64.deb
+
+wget https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/docker-ce_20.10.8~3-0~ubuntu-focal_amd64.deb
+sudo dpkg -i docker-ce_20.10.8~3-0~ubuntu-focal_amd64.deb
+
+wget https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/docker-ce_20.10.8~3-0~ubuntu-focal_amd64.deb
+
+sudo docker login
+
+
+
+------------------------------
+
+sudo apt-get install openjdk-8-jdk
+sudo apt install maven 
+
+wget https://golang.org/dl/go1.17.linux-amd64.tar.gz
+
+tar -xvf go1.17.linux-amd64.tar.gz
+export GOROOT=~/go
+export PATH=$PATH:$GOROOT/bin
+mkdir heragopath
+cd heragopath
+mkdir src
+mkdir pkg
+mkdir bin
+
+mkdir -p  src/github.com/ajlin179
+
+sudo apt install git
+
+
+sudo groupadd docker
+sudo gpasswd -a $USER docker
+sudo service docker restart
+
+
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
+sudo chmod 766  /var/run/docker.sock
