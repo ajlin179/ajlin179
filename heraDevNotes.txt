@@ -32,6 +32,9 @@ cd heragopath
 mkdir src
 mkdir pkg
 mkdir bin
+------------------------
+Docker issue 
+https://stackoverflow.com/questions/64462922/docker-multi-stage-build-go-image-x509-certificate-signed-by-unknown-authorit
 
 
 ------------------------------------------------------------------
