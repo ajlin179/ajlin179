@@ -32,14 +32,7 @@ cd heragopath
 mkdir src
 mkdir pkg
 mkdir bin
-------------------------
-Docker issue 
-https://stackoverflow.com/questions/64462922/docker-multi-stage-build-go-image-x509-certificate-signed-by-unknown-authorit
 
-
-------------------------------------------------------------------
-Docker development
-SSL Issue : https://stackoverflow.com/questions/64462922/docker-multi-stage-build-go-image-x509-certificate-signed-by-unknown-authorit
 
 mkdir -p  src/github.com/ajlin179
 
@@ -53,3 +46,8 @@ sudo service docker restart
 
 Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
 sudo chmod 766  /var/run/docker.sock
+
+------------------------
+Docker development
+SSL Issue : https://stackoverflow.com/questions/64462922/docker-multi-stage-build-go-image-x509-certificate-signed-by-unknown-authorit
+
