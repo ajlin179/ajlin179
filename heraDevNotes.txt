@@ -33,6 +33,11 @@ mkdir src
 mkdir pkg
 mkdir bin
 
+
+------------------------------------------------------------------
+Docker development
+SSL Issue : https://stackoverflow.com/questions/64462922/docker-multi-stage-build-go-image-x509-certificate-signed-by-unknown-authorit
+
 mkdir -p  src/github.com/ajlin179
 
 sudo apt install git
