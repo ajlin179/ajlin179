@@ -50,8 +50,10 @@ sudo chmod 766  /var/run/docker.sock
 ------------------------
 Docker development
 SSL Issue : https://stackoverflow.com/questions/64462922/docker-multi-stage-build-go-image-x509-certificate-signed-by-unknown-authorit
+postgres setup ref : https://anviam.com/blog/how-to-install-postgresql-on-docker/
 
 git config --global http.sslverify false
 go env -w GOPROXY=direct
 docker run --name postgres-0 -e POSTGRES_PASSWORD=mypassword -p 5433:5433 -d postgres
+
  
