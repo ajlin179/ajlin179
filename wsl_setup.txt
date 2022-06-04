@@ -1,0 +1,10 @@
+
+https://code.visualstudio.com/docs/remote/wsl#_getting-started
+
+start Edge on Windows from WSL2 : $ wslview index.html
+https://itsfoss.com/reset-linux-password-wsl/
+https://opentelemetry.io/docs/collector/getting-started/#local
+
+Ref: https://www.58bits.com/blog/2020/05/03/installing-mysql-80-under-wsl-2-and-ubuntu
+
+wsl2 to go tool trace: export BROWSER=wslview
