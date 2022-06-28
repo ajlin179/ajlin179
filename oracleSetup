@@ -1,0 +1,7 @@
+Docker based oracledb in windows
+- use gitbash to execute docker image building
+- 
+https://blogs.oracle.com/connect/post/deliver-oracle-database-18c-express-edition-in-containers
+https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance
+https://dba.stackexchange.com/questions/256416/building-oracle-xe-docker-image-in-windows-10-pro
+https://github.com/oracle/docker-images/issues/1545
