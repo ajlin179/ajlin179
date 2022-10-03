@@ -1,0 +1,9 @@
+# show process statistics with thread
+ps -T  -p <pid> -o pcpu,pid,pmem,stat,time,rss,c,stime,tid
+
+# show data from proc/stat 14 - utime, 15- stime, 16 - utime from children, 17 - stime from children, 20- no. of os threads
+cat /proc/<pid>/stat |  awk '{ print $14; print $15; print $16; print $17;print $20}'
+
+# OS thread level detail for a process
+pidstat -p <PID>  -t 1
+
