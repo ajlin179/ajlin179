@@ -1,0 +1,5 @@
+cat /etc/mysql/debian.cnf
+Having passwd for debian-sys-maint
+mysql -u debian-sys-maint -p
+
+Ref:- https://stackoverflow.com/questions/33991228/what-is-the-default-root-pasword-for-mysql-5-7
