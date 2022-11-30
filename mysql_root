@@ -3,3 +3,10 @@ Having passwd for debian-sys-maint
 mysql -u debian-sys-maint -p
 
 Ref:- https://stackoverflow.com/questions/33991228/what-is-the-default-root-pasword-for-mysql-5-7
+
+
+
+----Install my sql - ubuntu -----
+apt-get remove --purge mysql-server mysql-client mysql-common
+apt-get autoremove
+apt-get install -f mysql-server
