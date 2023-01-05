@@ -1,0 +1,14 @@
+go test  -v  -trace trace.out
+go tool trace trace.out
+
+
+go test  -v   -cpuprofile cpu.out
+go tool pprof -http :9402 cpu.out
+
+
+#create test binary <packagename>.test
+go test -c
+
+
+go test  -v -memprofile  mem.out
+go tool pprof -http :9402 mem.out
