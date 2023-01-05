@@ -7,3 +7,9 @@ cat /proc/<pid>/stat |  awk '{ print $14; print $15; print $16; print $17;print 
 # OS thread level detail for a process, adding refresh for 1 second shows correct stat than without that.
 pidstat -p <PID>  -t 1
 
+
+
+#finding socket creation time
+time nc  -vz 127.0.0.1 11111
+time nc  -z 127.0.0.1 11111
+
