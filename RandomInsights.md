@@ -10,3 +10,5 @@ convolutional -> "Kan" + "olli" + "Nal"  ---> In Tamil, Kan means Eye , Olli mea
 
 2. artificial neural networks
 
+![Kiku](Screenshot 2023-07-06 at 10.30.49 AM.png)
+
